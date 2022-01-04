@@ -14,6 +14,10 @@ body{
 p{
     color: #777;
 }
+h4{
+    text-align: center;
+    padding: 50px 0px;
+}
 .home{
     padding: 50px 0px 45px 0px;
     background-image: url(../img/top-banner.png);
@@ -86,3 +90,53 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
+/* experience_section starts here  */
+.experience_section{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:80px;
+
+}
+.experience_content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6%;
+}
+.exper{
+    padding-left: 6%;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+.box{
+    width:550px;
+    height: 100%;
+    padding: 15px;
+    box-shadow: 1px 2px 15px gray;
+
+}
+.box h1{
+    font-size: 32px;
+}
+.box h3{
+    color:orange;
+    margin: 8px 0px;
+}
+.box:nth-child(1){
+    margin-right: 60px;
+}
+.fullS{
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+.babyD{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+.developer{
+    color: orange;
+}
+/* experience_section ends here  */
